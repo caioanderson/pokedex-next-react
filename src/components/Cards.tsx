@@ -1,18 +1,8 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css';
+import styles from '../styles/components/Cards.module.css';
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Pokedex</title>
-      </Head>
-
-      <div className={styles.header}>
-        <h1>Pokedex</h1>
-      </div>
-
-      <div className={styles.cards}>
+export function Cards(){
+    return(
+        <div className={styles.cards}>
         <div className={styles.card}>
           <div className={styles.title}>
             <h2>Pikachu</h2>
@@ -101,10 +91,5 @@ export default function Home() {
 
 
       </div>
-
-
-
-
-    </div>
-  )
+    );
 }
