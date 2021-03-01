@@ -8,14 +8,33 @@
   --background-color : #1e1e1e;
   --text-color : #e1e1e1;
   --card-color: #3d3d3d;
-  --button-grass: #9dd465;
+  --fire: #db7a7a;
+  --grass: #81e988;
+  --eletric: #f0c906;
+  --water: #7dbad6;
+  --ground: #f7d4b2;
+  --rock:#d5d5d4;
+  --fairy: #df9beb;
+  --poison: #98d7a5;
+  --bug: #eebf7c;
+  --dragon: #97b3e6;
+  --psychic: #eaeda1;
+  --fluying: #F5F5F5;
+  --fighting: #E6E0D4;
+  --normal: #F5F5F5;
+
 }
 
 body {
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* min-height: 100vh; */
 }
+
 
 
 
