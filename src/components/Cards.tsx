@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import styles from '../styles/components/Cards.module.css';
 
-const POKEMON_COUNT = 150;
+const POKEMON_COUNT = 187;
 const types = [
     'fire',
     'grass',
@@ -23,8 +23,6 @@ const types = [
 export function Cards() {
 
     const [pokemons, setPokemons] = useState([]);
-    const [typePokemon, setTypePokemon] = useState(styles.type);
-
 
     async function apiPokemon(idPokemon: number) {
         if (idPokemon === undefined) return;
@@ -64,8 +62,8 @@ export function Cards() {
     return (
 
         <div className={styles.container}>
+            
             { pokemons.map(pokemon => {
-                // console.log(pokemon.type)
 
                 let caminhoTypesStyle;
 

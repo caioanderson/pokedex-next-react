@@ -1,0 +1,219 @@
+.tag{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.textType{
+    font-size: 15px;
+}
+
+.fire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-color);
+    border-radius: 15px;
+    padding: 5px;
+    width: 3.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    pointer-events: none;
+    
+    background: var(--fire);
+  }
+
+.grass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-color);
+    border-radius: 15px;
+    padding: 5px;
+    width: 3.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    pointer-events: none;
+
+    background: var(--grass);
+  } 
+
+.eletric{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-color);
+    border-radius: 15px;
+    padding: 5px;
+    width: 3.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    pointer-events: none;
+
+    background: var(--eletric);
+  }
+
+.water{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-color);
+    border-radius: 15px;
+    padding: 5px;
+    width: 3.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    pointer-events: none;
+
+    background: var(--water);
+
+  }
+
+.ground{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-color);
+    border-radius: 15px;
+    padding: 5px;
+    width: 3.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    pointer-events: none;
+
+    background: var(--ground);
+  }
+
+.rock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-color);
+    border-radius: 15px;
+    padding: 5px;
+    width: 3.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    pointer-events: none;
+
+    background: var(--rock);
+  }
+
+.fairy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-color);
+    border-radius: 15px;
+    padding: 5px;
+    width: 3.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    pointer-events: none;
+
+    background: var(--fairy);
+  }
+
+.poison{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-color);
+    border-radius: 15px;
+    padding: 5px;
+    width: 3.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    pointer-events: none;
+
+    background: var(--poison);
+  }
+
+.bug{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-color);
+    border-radius: 15px;
+    padding: 5px;
+    width: 3.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    pointer-events: none;
+
+    background: var(--bug);
+  }
+
+.dragon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-color);
+    border-radius: 15px;
+    padding: 5px;
+    width: 3.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    pointer-events: none;
+
+    background: var(--dragon);
+  }
+
+.psychic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-color);
+    border-radius: 15px;
+    padding: 5px;
+    width: 4.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    pointer-events: none;
+
+    background: var(--psychic);
+  }
+
+.fluying{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-color);
+    border-radius: 15px;
+    padding: 5px;
+    width: 3.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    pointer-events: none;
+
+    background: var(--fluying);
+  }
+
+.fighting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-color);
+    border-radius: 15px;
+    padding: 5px;
+    width: 4.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    pointer-events: none;
+
+    background: var(--fighting);
+  }
+
+.normal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-color);
+    border-radius: 15px;
+    padding: 5px;
+    width: 3.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    pointer-events: none;
+
+    background: var(--normal);
+  }
