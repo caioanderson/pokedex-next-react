@@ -103,7 +103,8 @@ export function Cards() {
                         <div className={styles.content}>
                             <h2>#{pokemon.id}</h2>
                             <img className={styles.img}
-                                src={`https://pokeres.bastionbot.org/images/pokemon/${pokemon.id}.png`} />
+                                src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`} />
+                                
                             <p>{pokemon.name}</p>
                             <div className={caminhoTypesStyle}>
                                 <small> {pokemon.type == undefined ?
